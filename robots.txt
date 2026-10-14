@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://slwbr58cafe.github.io/slwbr58.cafe/sitemap.xml

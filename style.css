@@ -1,0 +1,32 @@
+:root{--paper:#F5F1E8;--paper-raised:#FBF9F4;--ink:#1C1A17;--ink-soft:#5B5347;--rule:#D8D0BE;--coffee:#8B5A34;--coffee-dark:#5E3B21}
+*{box-sizing:border-box}html,body{margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans',sans-serif;-webkit-font-smoothing:antialiased;line-height:1.5}
+.sheet{max-width:560px;margin:0 auto;padding:48px 24px 64px}
+header{text-align:center;margin-bottom:36px}
+.logo{width:150px;height:150px;margin:0 auto 18px;display:block}
+.brand{font-family:'Archivo Black',sans-serif;font-size:clamp(28px,7vw,36px);letter-spacing:.5px;margin:0 0 6px}
+.tagline{font-size:13px;color:var(--ink-soft);letter-spacing:1.5px;margin:0 0 22px}
+.info{font-size:14.5px;color:var(--ink-soft);max-width:340px;margin:0 auto}.info p{margin:4px 0}.info .addr{color:var(--ink);font-weight:500}
+.fb-btn{display:inline-flex;margin-top:20px;padding:12px 24px;background:var(--coffee-dark);color:var(--paper-raised);text-decoration:none;font-weight:600;font-size:15px;border-radius:2px}.fb-btn:hover{background:var(--coffee)}
+.social{display:flex;justify-content:center;gap:10px;margin-top:14px;flex-wrap:wrap}
+.social a{padding:7px 14px;border:1px solid var(--coffee-dark);color:var(--coffee-dark);text-decoration:none;font-size:13.5px;font-weight:600;border-radius:2px}.social a:hover{background:var(--coffee-dark);color:var(--paper-raised)}
+.delivery-note{margin-top:20px;padding:12px 16px;border:1px solid var(--rule);background:var(--paper-raised);font-size:13px;color:var(--ink-soft);text-align:left}.delivery-note strong{color:var(--ink)}
+.mainnav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 16px;margin-top:22px;padding-top:14px;border-top:2px solid var(--ink)}
+.mainnav a{color:var(--ink-soft);font-size:14px;text-decoration:none;font-weight:500}.mainnav a:hover,.mainnav a[aria-current]{color:var(--ink);text-decoration:underline}
+h1{font-family:'Archivo Black',sans-serif;font-size:clamp(24px,6vw,30px);line-height:1.2;margin:10px 0 12px}
+h2{font-family:'Archivo Black',sans-serif;font-size:21px;margin:38px 0 8px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
+a{color:var(--coffee-dark)}.lead{font-size:17px;color:var(--ink-soft)}
+.hero,figure img{width:100%;height:auto;max-height:480px;object-fit:cover;border-radius:2px;display:block}
+figure{margin:24px 0}figcaption,.meta,.crumbs{font-size:13px;color:var(--ink-soft)}
+table{width:100%;border-collapse:collapse;font-size:14.5px}td,th{border-bottom:1px solid var(--rule);padding:8px;text-align:left}
+details{border-bottom:1px solid var(--rule);padding:10px 0}summary{cursor:pointer;font-weight:600}details p{margin:8px 0 0;color:var(--ink-soft);font-size:15px}
+.menu-section{margin-top:26px}.section-head{display:flex;align-items:baseline;justify-content:space-between;border-bottom:2px solid var(--ink);padding-bottom:6px;margin-bottom:4px}
+.section-head h2{margin:0;padding:0;border:0}.col-labels{display:flex;gap:18px;font-size:11.5px;color:var(--ink-soft);font-weight:600}.col-labels span{width:52px;text-align:right}
+.item{display:flex;justify-content:space-between;align-items:flex-start;padding:12px 0;border-bottom:1px solid var(--rule);gap:12px}.item:last-child{border-bottom:none}
+.item-name{font-weight:600;font-size:15.5px;margin:0 0 3px}.item-desc{font-size:13px;color:var(--ink-soft);margin:0;max-width:280px}
+.prices{display:flex;gap:18px;flex-shrink:0;padding-top:2px}.prices span{width:52px;text-align:right;font-variant-numeric:tabular-nums;font-weight:600;font-size:15px;color:var(--coffee-dark)}.prices.single span{width:auto;min-width:40px}
+.addons{margin-top:38px;padding-top:18px;border-top:2px solid var(--ink)}.addons h2{border:0;margin:0 0 10px;padding:0;font-size:18px}.addons .item{padding:8px 0}
+footer{text-align:center;margin-top:48px;font-size:12px;color:var(--ink-soft)}section.google-map{max-width:516px;margin:20px auto 0}iframe{max-width:100%}
+@media(max-width:400px){.item-desc{max-width:180px}}
+.fb-btn.alt{background:transparent;color:var(--coffee-dark);border:1px solid var(--coffee-dark);margin-left:4px}.fb-btn{margin-bottom:0}
+blockquote.rev{margin:14px 0;padding:10px 14px;border-left:3px solid var(--coffee);background:var(--paper-raised)}blockquote.rev p{margin:0 0 4px}blockquote.rev cite{font-size:13px;color:var(--ink-soft)}
